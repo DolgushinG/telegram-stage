@@ -1,5 +1,4 @@
 function addNewSeason(update) {
-  Logger.log('Внутри добавление новго абонемента')
   let nameAdmin = getData(update,1,'admins')
   let text = getDataUpdate(update,'text');
   let arrText = separateText(text);

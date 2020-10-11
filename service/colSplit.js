@@ -1,10 +1,10 @@
 function colSplit(arr, c){
-    var res = new Array(c);
-    for(var i=0;i<c;++i){
-      res[i] = [];
+    let result = new Array(c);
+    for(let i = 0;i < c;++i){
+        result[i] = [];
     }
-    for(var i=0;i<arr.length;++i){
-      res[i%c].push(arr[i]);
+    for(let i = 0;i < arr.length;++i){
+        result[i%c].push(arr[i]);
     }
-    return res;
+    return result;
   }

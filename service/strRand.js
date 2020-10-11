@@ -1,4 +1,4 @@
-function str_rand() {
+function strRand() {
   let result = '';
   let words = '0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM';
   let max_position = words.length - 1;

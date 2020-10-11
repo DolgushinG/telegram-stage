@@ -1,10 +1,5 @@
 function sendMessage(chatId,message,keyBoard){
-  Logger.log('внутри sendmessage');
-
-  let telegramUrl = getTelegramUrl(); 
-  Logger.log(telegramUrl);
-  Logger.log(message);
-  Logger.log(chatId);
+  let telegramUrl = getTelegramUrl();
   let payload = {
     'method': 'sendMessage',
     'chat_id': String(chatId),
@@ -15,8 +10,6 @@ function sendMessage(chatId,message,keyBoard){
   let data = {
     "method": "post",
     "payload": payload
-    
   }
-  
   UrlFetchApp.fetch(telegramUrl + '/', data);
 }

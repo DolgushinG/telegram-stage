@@ -1,26 +1,25 @@
 function registrationUsers(update) {
   let text = getDataUpdate(update,'text');
   let arrayText = separateText(text);
-  let adminname = arrayText[3];
+  let adminName = arrayText[3];
   let hash = arrayText[1];
   let nameUser = getDataUpdate(update,'firstName');
-  let sheetuser = getSheet('users');
-  let sheetadmin = getSheet(adminname);
+  let sheetUser = getSheet('users');
+  let sheetAdmin = getSheet(adminName);
   let chatId = getDataUpdate(update,'chatId');
-  let adminlist = sheetuser.getRange(1, 1, sheetuser.getLastRow()).getValues().map(function(row){return row[0]});
+  let adminlist = sheetUser.getRange(1, 1, sheetUser.getLastRow()).getValues().map(function(row){return row[0]});
   let lenadminlist = adminlist.length+1;
-  sheetuser.getRange(lenadminlist,1).setValue(nameUser);
-  sheetuser.getRange(lenadminlist,2).setValue(chatId);
-  sheetuser.getRange(lenadminlist,3).setValue(adminname);
-  sheetuser.getRange(lenadminlist,4).setValue(hash);
-  let hashlist = sheetadmin.getRange(1, 7, sheetadmin.getLastRow()).getValues().map(function(row){return row[0]});
+  sheetUser.getRange(lenadminlist,1).setValue(nameUser);
+  sheetUser.getRange(lenadminlist,2).setValue(chatId);
+  sheetUser.getRange(lenadminlist,3).setValue(adminName);
+  sheetUser.getRange(lenadminlist,4).setValue(hash);
+  let hashlist = sheetAdmin.getRange(1, 7, sheetAdmin.getLastRow()).getValues().map(function(row){return row[0]});
   let numberStr = hashlist.indexOf(hash) + 1;
-  sheetadmin.getRange(numberStr,2).setValue(chatId);
-  let chatIdUser = sheetadmin.getRange(numberStr,2).getValue();
-  let comName = sheetadmin.getRange(numberStr,1).getValue();
+  sheetAdmin.getRange(numberStr,2).setValue(chatId);
+  let chatIdUser = sheetAdmin.getRange(numberStr,2).getValue();
+  let comName = sheetAdmin.getRange(numberStr,1).getValue();
   var newArrComAllName = [];
   newArrComAllName[0] = comName + ' всего';
-  //десять рядом клавиатуры
   var arrNew = colSplit(newArrComAllName, 10);
   var KEYBOARD = {
     resize_keyboard:true

@@ -4,10 +4,6 @@ function checkRole(update){
     let arrayUser = getArrayColumn('users',2);
     let adminValue = arrayAdmin.includes(chatId);
     let userValue = arrayUser.includes(chatId);
-    Logger.log(arrayAdmin)
-    Logger.log(arrayUser)
-    Logger.log(adminValue)
-    Logger.log(userValue)
     if (adminValue) {
       admin(update);
       return;

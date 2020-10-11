@@ -1,6 +1,6 @@
 function addAdmin(update){
   let nameAdmin = update.message.chat.first_name;
-  let ssId = getssId();
+  let ssId = getSsId();
   let chatId = getDataUpdate(update,'chatId');
   SpreadsheetApp.openById(ssId).insertSheet(nameAdmin);
   let sheet = getSheet('admins');
@@ -19,6 +19,6 @@ function addAdmin(update){
   let message1 = nameAdmin+'\n'+ 'Как вести учет учеников?\nВсе очень просто, есть команды которые ты сможешь использовать\nЕсть команды которые ты будешь использовать часто, они будут ввиде кнопок\n';
   let message2 = 'Остальные комнады: \n 1. Добавить нового ученика "Имя"(без кавычек)\n 2. "Имя"(без кавычек) абонемент "сколько посещений (цифра)" "срок или бесрочный если 0"\n';
   let message3 = 'Например Вася абонемент 10 3';
-  let supermessage = message1+message2+message3;
-  sendMessage(chatId,supermessage);
+  let superМessage = message1+message2+message3;
+  sendMessage(chatId,superМessage);
 }
