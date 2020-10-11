@@ -5,7 +5,7 @@ function addAdmin(update){
   SpreadsheetApp.openById(ssId).insertSheet(nameAdmin);
   let sheet = getSheet('admins');
   let ValueForCheck = sheet.getRange(1, 1, sheet.getLastRow()).getValue()
-  if(ValueForCheck != []){
+  if(ValueForCheck !== []){
   let adminlist = sheet.getRange(1, 1, sheet.getLastRow()).getValues().map(function(row){return row[0]});
   let lenadminlist = adminlist.length+1;
   sheet.getRange(lenadminlist,1).setValue(nameAdmin);
