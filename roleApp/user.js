@@ -1,5 +1,4 @@
 function user(update) {
-  Logger.log('внутри user');
   let text = getDataUpdate(update,'text');
   let chatId = getDataUpdate(update,'chatId');
   let arrayText = separateText(text);
@@ -11,7 +10,7 @@ function user(update) {
       break;
     }
   }
-  if(arrayText[1]!= 'всего'){
+  if(arrayText[1]!== 'всего'){
   sendMessage(chatId,'Неизвестная команда');
   }
   

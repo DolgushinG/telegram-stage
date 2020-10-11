@@ -1,5 +1,4 @@
 function deleteStudent(update){
-
   let nameAdmin = getData(update,1,'admins');
   let namesStudent = getArrayColumn(nameAdmin,1)
   let text = getDataUpdate(update,'text');

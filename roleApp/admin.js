@@ -1,5 +1,4 @@
 function admin(update) {
-  Logger.log('внутри админ');
   let text = update.message.text;
   let arrayText = separateText(text);
   let admin = true;

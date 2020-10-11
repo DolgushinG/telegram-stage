@@ -1,5 +1,5 @@
 function getSheet(sheetName){
-  let ssId = getssId();
+  let ssId = getSsId();
   let sheet = SpreadsheetApp.openById(ssId).getSheetByName(sheetName);
   return sheet;
 }

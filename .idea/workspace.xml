@@ -16,36 +16,37 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/sort" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78c99043-166c-48e7-8ccb-28293fe1e3d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/telegram-stage" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdminAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/roleApp/AdminAction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addNewSeasonTrain.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/addNewSeasonTrain.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addadmin.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/addadmin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addnewuser.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/addnewuser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkRole.js" beforeDir="false" afterPath="$PROJECT_DIR$/roleApp/checkRole.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colSplit.js" beforeDir="false" afterPath="$PROJECT_DIR$/service/colSplit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/countadmin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deletestudent.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/deletestudent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getArrayColumn.js" beforeDir="false" afterPath="$PROJECT_DIR$/actionSheet/getArrayColumn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getData.js" beforeDir="false" afterPath="$PROJECT_DIR$/actionSheet/getData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getDataUpdate.js" beforeDir="false" afterPath="$PROJECT_DIR$/actionSheet/getDataUpdate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getTelegramUrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/service/getTelegramUrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getsheet.js" beforeDir="false" afterPath="$PROJECT_DIR$/actionSheet/getsheet.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getssId.js" beforeDir="false" afterPath="$PROJECT_DIR$/actionSheet/getssId.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guest.js" beforeDir="false" afterPath="$PROJECT_DIR$/roleApp/guest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/minus.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/minus.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recordToTableUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/actionSheet/recordToTableUser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/refreshkey.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/refreshkey.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registrationUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/registrationUser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sendmessage.js" beforeDir="false" afterPath="$PROJECT_DIR$/service/sendmessage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/separateText.js" beforeDir="false" afterPath="$PROJECT_DIR$/service/separateText.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/str_rand.js" beforeDir="false" afterPath="$PROJECT_DIR$/service/str_rand.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/total.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/total.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/roleApp/userAction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BOTDEV.js" beforeDir="false" afterPath="$PROJECT_DIR$/bot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionSheet/getData.js" beforeDir="false" afterPath="$PROJECT_DIR$/actionSheet/getData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionSheet/getDataUpdate.js" beforeDir="false" afterPath="$PROJECT_DIR$/actionSheet/getDataUpdate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionSheet/getsheet.js" beforeDir="false" afterPath="$PROJECT_DIR$/actionSheet/getSheet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionSheet/getssId.js" beforeDir="false" afterPath="$PROJECT_DIR$/actionSheet/getSsId.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actionSheet/recordToTableUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/actionSheet/recordToTableUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/addNewSeasonTrain.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/addNewSeasonTrain.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/addadmin.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/addAdmin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/addnewuser.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/addNewUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/deletestudent.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/deleteStudent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/refreshkey.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/refreshKey.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/registrationUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/registrationUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/total.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/total.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roleApp/AdminAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/roleApp/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roleApp/checkRole.js" beforeDir="false" afterPath="$PROJECT_DIR$/roleApp/checkRole.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roleApp/userAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/roleApp/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/colSplit.js" beforeDir="false" afterPath="$PROJECT_DIR$/service/colSplit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/sendmessage.js" beforeDir="false" afterPath="$PROJECT_DIR$/service/sendMessage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/str_rand.js" beforeDir="false" afterPath="$PROJECT_DIR$/service/strRand.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +57,11 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="sort" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1iZ1MgU0G8jeSEOjGMjrQyfiulW" />
@@ -100,10 +106,23 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/sort" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

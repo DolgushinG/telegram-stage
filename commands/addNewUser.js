@@ -3,12 +3,12 @@ function addNewUser(update){
   let sheet = getSheet(getNameAdmin);
   let ValueForCheck = sheet.getRange(1, 1).getValue();
   recordToTableUser(getNameAdmin,update);
-  refreshkey();
+  refreshKey();
   var message = 'Добавлен новый ученик \nСообщение которое нужно отправить ученику для регистрации: \n';
   let chatId = getDataUpdate(update,'chatId')
   sendMessage(chatId,message);
-  let hash = str_rand();
+  let hash = strRand();
   let nameAdminForUser = getDataUpdate(update,'firstName');
-  var messagetwo = 'Регистрация ' + hash +' Тренер: '+ nameAdminForUser;
-  sendMessage(chatId,messagetwo);
+  var messageTwo = 'Регистрация ' + hash +' Тренер: '+ nameAdminForUser;
+  sendMessage(chatId,messageTwo);
 }

@@ -11,14 +11,12 @@ function refreshKey(update) {
   for (var i = 0; i < arrayAllName2.length;i++){
     newArrComAllName2[i] = 'Списать '+ arrayAllName2[i];
   }
-  
   let NewConcatArr = newArrComAllName2.concat(newArrComAllName);
   let arrNew = colSplit(NewConcatArr, 10);
   let KEYBOARD = {
     resize_keyboard:true
   }
   KEYBOARD.keyboard = arrNew
-  
   var message = 'Клавиатура обновилась';
   sendMessage(chatId,message,KEYBOARD);
   
